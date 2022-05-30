@@ -1,0 +1,23 @@
+﻿body{
+	margin: 1%;
+    padding: 2%;
+    
+    background-color: #444;
+
+    color: white;
+    font-size: 500%;
+    text-align: center;
+}
+
+
+canvas {
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+
+    width: min(95vw,95vh);
+    height: min(95vw,95vh);
+}
