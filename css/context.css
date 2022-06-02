@@ -1,0 +1,23 @@
+.topic {
+	text-align: center;
+    	color: white;
+	font-family:"courier";
+	font-weight: lighter;
+
+    font-size: 10vh;
+}
+
+.maintext {
+	text-align: center;
+    color: white;
+	font-family:"courier";
+	font-weight: lighter;
+
+    font-size: 3vh;
+}
+
+input.textarea1 {
+	height: 4vh;
+	width: 30%;
+	font-size: 3vh;
+}
