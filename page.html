@@ -1,13 +1,22 @@
-﻿<html>
+<html>
     <head>
-        <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="css/layout.css">
+      <link rel="stylesheet" href="css/context.css">
     </head>
-    
-    <body>
-        <p>Click on the black area.</p>
 
-        <canvas id="c1" width="6000" height="6000"></canvas>
-        
-        <script lang="JavaScript" src=Script.js></script>
+    <body>
+      <p class="topic">Click on the black area.</p>
+      
+      <div class="container">
+        <div class="slider">
+          <p><label class="maintext">StarSize:<input type="number" size="100" class="textarea1" id="input_size" value="10" onChange="return check_size();"></label></p>
+          <p></p><label class="maintext">Zoom:<input type="number" size="100" class="textarea1" id="input_zoom" value="1" onChange="return check_zoom();"></label></p>
+        </div>
+
+        <div id="canvas_wrapper">
+            <canvas id="canvas_id"></canvas>
+            <script type="text/javascript" src="script.js"></script>
+        </div>
+      </div>
     </body>
 </html>
