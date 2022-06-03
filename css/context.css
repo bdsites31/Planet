@@ -13,7 +13,7 @@
 	font-family:"courier";
 	font-weight: lighter;
 
-    font-size: 3vh;
+    font-size: min(3vh,3vw);
 }
 
 input.textarea1 {
