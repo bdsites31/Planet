@@ -73,8 +73,8 @@ function draw() {
         for (let i = 0; i < ballcount; i++) {
                 for(let j = 0; j < ballcount; j++){
                         if(i != j){
-                                sx[i] += size[j]*size[j]*(x[j]-x[i])/((x[i]-x[j])*(x[i]-x[j])+(y[i]-y[j])*(y[i]-y[j])+0.01)/Math.sqrt((x[i]-x[j])*(x[i]-x[j])+(y[i]-y[j])*(y[i]-y[j])+0.01);
-                                sy[i] += size[j]*size[j]*(y[j]-y[i])/((x[i]-x[j])*(x[i]-x[j])+(y[i]-y[j])*(y[i]-y[j])+0.01)/Math.sqrt((x[i]-x[j])*(x[i]-x[j])+(y[i]-y[j])*(y[i]-y[j])+0.01);
+                                sx[i] += size[j]*size[j]*(x[j]-x[i])/((x[i]-x[j])*(x[i]-x[j])+(y[i]-y[j])*(y[i]-y[j])+0.1)/Math.sqrt((x[i]-x[j])*(x[i]-x[j])+(y[i]-y[j])*(y[i]-y[j])+0.1);
+                                sy[i] += size[j]*size[j]*(y[j]-y[i])/((x[i]-x[j])*(x[i]-x[j])+(y[i]-y[j])*(y[i]-y[j])+0.1)/Math.sqrt((x[i]-x[j])*(x[i]-x[j])+(y[i]-y[j])*(y[i]-y[j])+0.1);
                         }
                 }
 
